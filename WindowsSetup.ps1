@@ -147,13 +147,13 @@ function F_INSTALL_APP_GAMING {
 
 function F_INSTAL_APP_TROUBELSHOOT {
     Write-Log -Message "Starting Install Troubleshooting Apps" -Severity Debug
-    choco install HWiNFO treesizefree malwarebytes teamviewer.host putty advanced-ip-scanner wireshark crystaldiskmark samsung-magician crystaldiskinfo.install sysinternals
+    choco install HWiNFO treesizefree malwarebytes teamviewer.host putty advanced-ip-scanner wireshark crystaldiskmark crystaldiskinfo.install sysinternals
     Write-Log -Message "Installed Troubleshooting Apps" -Severity Information
 }
 
 function F_INSTALL_APP_FULL {
     Write-Log -Message "Starting Install Full Apps" -Severity Debug
-    choco install firefox vlc 7zip spotify notepadplusplus adobereader teamviewer vscode openvpn powershell-core microsoft-windows-terminal nodejs python github-desktop putty postman googlechrome openvpn steam discord epicgameslauncher goggalaxy teamspeak HWiNFO treesizefree malwarebytes teamviewer.host putty advanced-ip-scanner wireshark crystaldiskmark samsung-magician crystaldiskinfo.install sysinternals -y
+    choco install firefox vlc 7zip spotify notepadplusplus adobereader teamviewer vscode openvpn powershell-core microsoft-windows-terminal nodejs python github-desktop putty postman googlechrome openvpn steam discord epicgameslauncher goggalaxy teamspeak HWiNFO treesizefree malwarebytes teamviewer.host putty advanced-ip-scanner wireshark crystaldiskmark crystaldiskinfo.install sysinternals -y
     Write-Log -Message "Installed all Programms" -Severity Information
 }
 
