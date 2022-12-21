@@ -157,6 +157,12 @@ function F_INSTALL_APP_FULL {
     Write-Log -Message "Installed all Programms" -Severity Information
 }
 
+function F_INSTALL_APP_BACKUP {
+    Write-Log -Message "Starting Install Backup" -Severity Debug
+    choco install veeam-agent -y
+    Write-Log -Message "Installed all Programms" -Severity Information
+}
+
 # Basic Setup Function
 function SETUP_BASIC {
     Write-Log -Message "Starting Basic Setup" -Severity Debug
