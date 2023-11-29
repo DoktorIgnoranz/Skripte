@@ -13,7 +13,7 @@ goto check_Permissions
 	 echo Press any Key to exit
 	exit /b 0
     )
-    	echo Press Enter to Continue
+    	echo Press any Key to Continue
     pause >nul
 
 
